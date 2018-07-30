@@ -1,0 +1,33 @@
+
+/* NAVIGATON BAR */
+        
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /*height: 80px;*/
+    max-width: 2000px;
+
+}
+
+#nava{
+    margin: 10px 10px;
+}
+
+#nava:hover {
+    color: #E5050F;
+}
+
+#buttonnav {
+    margin: 21px 10px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 30px;
+    background-color: #E5050F;
+}
+
+#buttonnav:hover {
+    background-color: #000;
+}

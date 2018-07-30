@@ -1,0 +1,310 @@
+/* scroller */
+#scroller{ border-top:1px solid #eee; padding:20px 0;}
+#scroller li img{ margin:0 auto;}
+.simply-scroll-container{ position:relative;}
+.simply-scroll-clip{ position:relative; overflow:hidden;}
+.simply-scroll-list{ overflow:hidden;}  
+.simply-scroll-list li{ padding:0; margin:0; list-style:none;}  
+.simply-scroll-list li img{ border:none; display:block;}
+.simply-scroll{ width:100%; height:134px;}
+.simply-scroll .simply-scroll-clip{ width:100%; height:134px;}
+.simply-scroll .simply-scroll-list li{ float:left; width:200px; height:94px;}
+
+
+
+
+.nav {
+  text-align: left;
+  width: 234px;
+  list-style: none;
+  padding: 0px;
+  position: relative;
+  -webkit-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.nav > li {
+  width:210px;
+  background: #FFFFFF;
+  display: inline-block;
+  font-size: 14px;
+  
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.nav > li:hover {
+  background: #E6E6E6;
+  color: #1B75C4;
+}
+
+.nav > li > a {
+  display: block;
+  padding: 15px 15px 15px 15px;
+}
+
+.nav > li:nth-child(-n+2){
+  border-left: 4px solid #FFC50A;
+}
+
+.nav > li:nth-child(-n+2):hover{
+  border-left: 4px solid #cc9e08;
+}
+
+.nav > li:nth-child(n+3){
+  border-left: 4px solid #74BF44;
+}
+
+.nav > li:nth-child(n+3):hover{
+  border-left: 4px solid #5d9936;
+}
+
+.nav > li:nth-child(n+5) {
+  border-left: 4px solid #0097D1;
+}
+
+.nav > li:nth-child(n+5):hover {
+  border-left: 4px solid #0079a7;
+}
+
+.arrow {
+  float: right;
+  padding: 0px 10px
+}
+
+
+.ase{
+  width: 1%;
+  float: left;
+}
+
+.asf{
+  width: 22%;
+  float: left;
+}
+
+.asg{
+
+}
+
+
+.ash {
+  width: 234px;
+  height: 150px;
+  padding: 20px;
+  background: #f0f0f0;
+  
+  font: 400 27px/1.2 Lato, sans-serif;
+    color: #000000;
+  box-shadow: 0 20px 20px -20px rgba(0, 0, 0, .5);
+}
+
+.asi{
+  padding: 20px;
+}
+
+.asj {
+  width: 77%;
+  float: left;
+}
+
+
+
+
+.animate
+{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;  
+}
+
+
+
+.red
+{
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+
+
+.action-button:active
+{
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+}
+
+
+
+    
+/* http://www.menucool.com */
+
+#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame 
+{
+    width:700px;
+    margin:0 auto; /*center-aligned*/
+}
+
+#slider, #slider .sliderInner {
+    width:700px;height:306px;/* Must be the same size as the slider images */
+    border-radius:3px;
+}
+
+#slider {
+    background-color:white;
+    position:relative;
+    margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+    box-shadow: 0px 1px 5px #999999;
+}
+
+/* the link style (if an image is wrapped by a link) */
+#slider a.imgLink, #slider .video {
+    z-index:2;
+    cursor:pointer;
+    position:absolute;
+    top:0px;left:0px;border:0;padding:0;margin:0;
+    width:100%;height:100%;
+}
+#slider .video {
+    background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+/* Caption styles */
+#slider .mc-caption {
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding:10px 0;/* 10px will increase the height.*/
+    left:0px;
+    bottom:0px;top:auto;
+    overflow:hidden;
+    font: bold 14px/20px Arial;
+    color:#EEE;
+    text-align:center;
+    background:rgba(0,0,0,0.3);
+}
+#slider .mc-caption a {
+    color:#FB0;
+}
+#slider .mc-caption a:hover {
+    color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+    top:320px;
+    text-align:center;
+    background:none;
+    position:relative;
+    z-index:3;
+}
+
+/* each bullet */
+#slider .navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider .navBulletsWrapper .active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+    position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+.baa {
+  width: 5%;
+  float: left;
+}
+
+.baf {
+  width: 95%;
+  float: left;
+
+}
+
+.baz {
+  width: 90%;
+  float: left;
+
+}
+
+.bab {
+  width: 10%;
+  float: left;
+}
+
+.bac {
+
+  width: 75%;
+  float: left;
+}
+
+.bae {
+  width: 29%;
+  float: left;
+}
+
+.bag {
+
+}
+
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}

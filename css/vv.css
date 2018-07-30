@@ -1,0 +1,108 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.navbar .container-fluid {
+  padding: 0;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo-small {
+    color: #E5050F;
+    font-size: 50px;
+}
+.logo {
+    color: #E5050F;
+    font-size: 200px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+#myBtn:hover {
+    background-color: red;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+
+body{ margin:0; padding:0; font:14px 'Open Sans',arial,sans-serif; line-height:22px; font-weight:400;}
+.container{ margin:0 auto; width:1030px;}
+.container-full{ margin:0 auto; width:100%;}
+
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+
+
+a{ text-decoration:none;}
+h1, h2, h3, h4, ul, li{ margin:0; padding:0; list-style-type:none;}
+
+.button{ font-size:14px; color:#fff; transition:all 0.2s; padding:8px 15px; display:inline-block; border-radius:2px; border:none; cursor:pointer; font:14px 'Open Sans',arial,sans-serif;}
+.blue{ background-color:#2362c0; color:#fff;}
+.yellow{ background-color:#fadd57; color:#222;}
+.button:hover{ background-color:#3f87f3; color:#fff; transition:all 0.2s;}
