@@ -59,7 +59,7 @@
     text-align: center;
     border-radius: 100px;
     padding: 5px 30px;
-    width: 35%;
+    width: 36%;
     margin-left: 5%;
     }
 }
