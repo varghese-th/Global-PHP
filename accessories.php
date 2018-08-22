@@ -150,9 +150,6 @@
 
 /* IMAGE SLIDER */
 
-/* http://www.menucool.com */
-
-
 #sliderFrame, #sliderFrame div {
     box-sizing: content-box;
 }
@@ -313,9 +310,9 @@ div.desc {
 
             <ul class="navvv">
                 <li><a href="./accessories.php">CCTV Accessories</a></li>
+<!--                 <li><a href="">CCTV Accessories</a></li>
                 <li><a href="">CCTV Accessories</a></li>
-                <li><a href="">CCTV Accessories</a></li>
-                <li><a href="">CCTV Accessories</a></li>
+                <li><a href="">CCTV Accessories</a></li> -->
             </ul>
 
             <div class="enquiry-box">
