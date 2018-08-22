@@ -3,6 +3,7 @@
 <html>
 <head>
     <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="accessories.js"></script>
 
@@ -147,17 +148,6 @@
     width: 70%;
 }
 
-@media screen and (max-width: 800px) {
-    
-    .product-distributed .product-left{
-        display: none;
-    }
-
-    .product-distributed .product-right{
-        width: 100%;
-    }
-}
-
 /* IMAGE SLIDER */
 
 /* http://www.menucool.com */
@@ -169,7 +159,7 @@
 #sliderFrame 
 {
     width:700px;
-    /*margin:0 auto; center-aligned*/
+    margin:0 auto; center-aligned
 }
 
 #slider, #slider .sliderInner {
@@ -180,7 +170,7 @@
 #slider {
     background-color:white;
     position:relative;
-    /*margin:0 auto; center-aligned*/
+    margin:0 auto; /* center-aligned */
     transform: translate3d(0,0,0);
     box-shadow: 0px 1px 5px #999999;
 }
@@ -268,7 +258,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 170px;
 }
 
 div.gallery:hover {
@@ -287,6 +277,26 @@ div.desc {
 
 .pclass {
     float: left;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .product-distributed .product-left{
+        display: none;
+    }
+
+    .product-distributed .product-right{
+        width: 100%;
+    }
+
+    .formobiletext {
+    	margin: 2% 5%;
+    }
+
+    #sliderFrame {
+    	display: none;
+    }
 }
 
 </style>
@@ -312,7 +322,7 @@ div.desc {
                 <br>
                 <h3>Have queries...?</h3>
                 <div class="enquiry-button">
-                    <a href="" class="action-button shadow animate red">Click</a>    
+                    <a href="./enquiry-form.php" class="action-button shadow animate red">Click</a>    
                 </div>
             </div>        
         </div>
@@ -321,7 +331,7 @@ div.desc {
 
             <!-- IMAGE SLIDER -->
             <br>
-            <span style="font-weight:bold;"><h2>CCTV ACCESSORIES</h2></span>
+            <span style="font-weight:bold;"><h2 class="formobiletext">CCTV ACCESSORIES</h2></span>
             <br>
             <div id="sliderFrame">
                 <div id="slider">
@@ -341,7 +351,7 @@ div.desc {
                     <img src="media/qw12.jpg" width="600" height="400">
                 </div>
                 <div class="pclass">
-                    <p>MX-MDR TECHNOLOGIES LIMITED is 4 Decades Company which specializes in designing and manufacturing of CCTV professional cameras, Digital Video Recorders (DVR), Security/Surveillance accessories. MX follows Innovation, Service, Adaptability and Reliability, which helps to serve society. MX aims to provide great quality products with apt price and fast service.</p>
+                    <p class="formobiletext">MX-MDR TECHNOLOGIES LIMITED is 4 Decades Company which specializes in designing and manufacturing of CCTV professional cameras, Digital Video Recorders (DVR), Security/Surveillance accessories. MX follows Innovation, Service, Adaptability and Reliability, which helps to serve society. MX aims to provide great quality products with apt price and fast service.</p>
                 </div>
             </div>
 
@@ -362,10 +372,10 @@ div.desc {
                         <img src="media/4.jpg" width="600" height="400">  
                     </div>
                     <div class="pclass">
-                        <p>Offering you a complete choice of products which include 4 channel cctv power supply, 8 channel cctv power supply, 16 channel cctv power supply, 4 channel power supply with multi cable compensation switch, 8 channel power supply multi cable compensation switch and 16 channel power supply.</p>
-                        <strong>Features :</strong>
+                        <p class="formobiletext">Offering you a complete choice of products which include 4 channel cctv power supply, 8 channel cctv power supply, 16 channel cctv power supply, 4 channel power supply with multi cable compensation switch, 8 channel power supply multi cable compensation switch and 16 channel power supply.</p>
+                        <strong class="formobiletext">Features :</strong>
                         <br>
-                        <ul>
+                        <ul class="formobiletext">
                             <li>&nbspBIS Approved</li>
                             <li>&nbspHighly Integrated SMPS Switcher I.C Design</li>
                             <li>&nbspStabilized Output Low Interference</li>
@@ -392,10 +402,10 @@ div.desc {
                         <img src="media/cf11.jpg" width="300" height="200">
                     </div>
                     <div class="pclass">
-                        <p>At Copper Folia, they as a quality focused Manufacturer and Supplier, offer their clients the best range of wires and cables. This range encompasses Power Cables, Electrical Cables, Data Cables, Coaxial Cables, LAN Cables, Security Cables, CCTV Cables, Networking Cables and more. All these are made-up with latest technologies and quality material that ensure to their safe working, optimum transmission, and durability. Moreover, the Networking Cables they offer are used a lot in network devices for their excellent working at varying temperature and quality insulating material.</p>
-                        <strong>Services :</strong>
+                        <p class="formobiletext">At Copper Folia, they as a quality focused Manufacturer and Supplier, offer their clients the best range of wires and cables. This range encompasses Power Cables, Electrical Cables, Data Cables, Coaxial Cables, LAN Cables, Security Cables, CCTV Cables, Networking Cables and more. All these are made-up with latest technologies and quality material that ensure to their safe working, optimum transmission, and durability. Moreover, the Networking Cables they offer are used a lot in network devices for their excellent working at varying temperature and quality insulating material.</p>
+                        <strong class="formobiletext">Services :</strong>
                         <br>
-                        <ul>
+                        <ul class="formobiletext">
                             <li>&nbspCoxial Cables</li>
                             <li>&nbspLan Cables</li>
                             <li>&nbspSecurity Cables</li>
