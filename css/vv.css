@@ -19,13 +19,13 @@ h4 {
     margin-bottom: 30px;
 }
 
-.container-fluid {
+.container-fluid-modified {
     padding: 60px 50px;
 }
 
-.navbar .container-fluid {
+/*.navbar .container-fluid {
   padding: 0;
-}
+}*/
 
 .bg-grey {
     background-color: #f6f6f6;

@@ -16,7 +16,7 @@
 
         <!-- Container (About Section) -->
         
-        <div id="about" class="container-fluid">
+        <div id="about" class="container-fluid container-fluid-modified">
             <div class="row">
                 <div class="col-sm-8">
                     <h4>Global Technologies Utd: - two decades company having ample experience in Electronic security, Automation, Automobile, GPS Vehicle tracking. A single outlet, one stop destination, where you can find the wide range of Electronic security Products and solutions from the well known brands of the world.</h4><br>
@@ -32,7 +32,7 @@
 
         <!-- mission and vission -->
 
-        <div class="container-fluid">
+        <div class="container-fluid container-fluid-modified">
             <div class="row">
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -73,7 +73,7 @@
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQriBAMNDceta2JO_GL67k7KGPYPojlV4&callback=initMap">
             </script>
 
-            <script>
+<!--             <script>
             $(document).ready(function(){
               // Add smooth scrolling to all links in navbar + footer link
               $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
@@ -108,7 +108,7 @@
                 });
               });
             })
-            </script>
+            </script> -->
 
     </body>
 </html>
