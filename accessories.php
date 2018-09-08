@@ -5,7 +5,7 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="accessories.js"></script>
+    <!-- <script type="text/javascript" src="accessories.js"></script> -->
 
 <style>
     
@@ -330,13 +330,45 @@ div.desc {
             <br>
             <span style="font-weight:bold;"><h2 class="formobiletext">CCTV ACCESSORIES</h2></span>
             <br>
-            <div id="sliderFrame">
-                <div id="slider">
-                    <img src="media/acc12.jpg"/>
-                    <img src="media/aa14.png"/>
-                    <img src="media/cctv14.jpg"/>            
+
+
+            <div class="container-fluid">  
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="./media/acc12.jpg" style="width:100%;">
+                  </div>
+
+                  <div class="item">
+                    <img src="./media/aa14.png" style="width:100%;">
+                  </div>
+                
+                  <div class="item">
+                    <img src="./media/cctv14.jpg" style="width:100%;">
+                  </div>
                 </div>
-            </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div> 
+
+
 
             <div class="products-details">
                 <img src="media/mxlogo.png">
