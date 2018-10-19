@@ -151,6 +151,7 @@
                         <a id="nava" class="dropdown-toggle" data-toggle="dropdown" href="">Products<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="./accessories.php">CCTV Accessories</a></li>
+                            <li><a href="./gps.php">Vehicle Tracking System</a></li>
 <!--                            <li><a href="">Web Application Development</a></li>
                             <li><a href="">User Experiance Design</a></li> -->
                         </ul>

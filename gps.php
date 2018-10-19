@@ -329,7 +329,7 @@ div.desc {
 
             <!-- IMAGE SLIDER -->
             <br>
-            <span style="font-weight:bold;"><h2 class="formobiletext">CCTV ACCESSORIES</h2></span>
+            <span style="font-weight:bold;"><h2 class="formobiletext">GPS - Vehicle Tracking System</h2></span>
             <br>
 
 
@@ -345,15 +345,15 @@ div.desc {
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="./media/acc12.jpg" style="width:100%;">
+                    <img src="./media/gps3.jpg" style="width:100%;">
                   </div>
 
                   <div class="item">
-                    <img src="./media/aa14.png" style="width:100%;">
+                    <img src="./media/gps1.jpg" style="width:100%;">
                   </div>
                 
                   <div class="item">
-                    <img src="./media/cctv14.jpg" style="width:100%;">
+                    <img src="./media/gps2.png" style="width:100%;">
                   </div>
                 </div>
 
@@ -369,87 +369,42 @@ div.desc {
               </div>
             </div> 
 
-
-
-            <div class="products-details">
-                <img src="media/mxlogo.png">
-                <br><br>
-                <div class="gallery">  
-                    <img src="media/qw11.jpg" width="300" height="200">
-                </div>
-                <div class="gallery">
-                    <img src="media/qw12.jpg" width="600" height="400">
-                </div>
-                <div class="pclass">
-                    <p class="formobiletext">MX-MDR TECHNOLOGIES LIMITED is 4 Decades Company which specializes in designing and manufacturing of CCTV professional cameras, Digital Video Recorders (DVR), Security/Surveillance accessories. MX follows Innovation, Service, Adaptability and Reliability, which helps to serve society. MX aims to provide great quality products with apt price and fast service.</p>
-                </div>
-            </div>
-
             <div class="products-details">
                 <div class="pclass">
-                    <img src="media/erd.jpg">
+                    <img src="media/indianautocompany.jpg">
                     <br>
                     <div class="gallery"> 
-                        <img src="media/1.jpg" width="300" height="200">  
+                        <img src="media/IAC_101.jpg" width="300" height="200">  
                     </div>
                     <div class="gallery">
-                        <img src="media/2.jpg" width="600" height="400">  
+                        <img src="media/IAC_102.jpg" width="600" height="400">  
                     </div>
                     <div class="gallery">
-                        <img src="media/3.jpg" width="300" height="200">  
+                        <img src="media/IAC_103.jpg" width="300" height="200">  
                     </div>
                     <div class="gallery"> 
-                        <img src="media/4.jpg" width="600" height="400">  
+                        <img src="media/IAC_140.jpg" width="600" height="400">  
                     </div>
                     <div class="pclass">
-                        <p class="formobiletext">Offering you a complete choice of products which include 4 channel cctv power supply, 8 channel cctv power supply, 16 channel cctv power supply, 4 channel power supply with multi cable compensation switch, 8 channel power supply multi cable compensation switch and 16 channel power supply.</p>
+                        <p class="formobiletext">Indian Auto Company is a tech start-up in Telematics and Advanced Driver Assistance System offering solution in Tracking & Telematics, Navitainment, Rear Seat Infotainment and Driver Fatigue Systems. We use IoT hardware to deliver useful, real-time information's.</p>
                         <strong class="formobiletext">Features :</strong>
                         <br>
                         <ul class="formobiletext">
-                            <li>&nbspBIS Approved</li>
-                            <li>&nbspHighly Integrated SMPS Switcher I.C Design</li>
-                            <li>&nbspStabilized Output Low Interference</li>
-                            <li>&nbspSurge Protection, Over Temperature Protection</li>
-                            <li>&nbspOver Current, Over Voltage & Over Load Protection</li>
-                            <li>&nbspHigh-efficiency, low energy Consumption</li>
-                            <li>&nbspIndividual output with Resettable Fuse</li>
-                            <li>&nbspCable Compensation Switch for Voltage Boosting</li>
-                            <li>&nbspShort Circuit Auto Restart</li>
-                            <li>&nbspLow Ripple Voltage (mV P-P): <5% </li>
-                            <li>&nbspAttractive Grey Color ABS Cabinet.</li>
-                            <li>&nbspCompact size, light weight Shock Proof.</li>
-                            <li>&nbspWall Mountable/ Desktop Type.</li>
+                            <li>&nbspBetter fleet Management</li>
+                            <li>&nbspIncrease Fleet Safety</li>
+                            <li>&nbspVehicle Tracking in Case of theft</li>
+                            <li>&nbspRoute & Resource Optimization</li>
+                            <li>&nbspCost Control</li>
+                            <li>&nbspBetter Supply Chain Management</li>
+                            <li>&nbspDriver Behaviour Systems</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="products-details">
-                <div class="pclass">
-                    <img src="media/copperfolia.png">
-                    <br>
-                    <div class="gallery">  
-                        <img src="media/cf11.jpg" width="300" height="200">
-                    </div>
-                    <div class="pclass">
-                        <p class="formobiletext">At Copper Folia, they as a quality focused Manufacturer and Supplier, offer their clients the best range of wires and cables. This range encompasses Power Cables, Electrical Cables, Data Cables, Coaxial Cables, LAN Cables, Security Cables, CCTV Cables, Networking Cables and more. All these are made-up with latest technologies and quality material that ensure to their safe working, optimum transmission, and durability. Moreover, the Networking Cables they offer are used a lot in network devices for their excellent working at varying temperature and quality insulating material.</p>
-                        <strong class="formobiletext">Services :</strong>
-                        <br>
-                        <ul class="formobiletext">
-                            <li>&nbspCoxial Cables</li>
-                            <li>&nbspLan Cables</li>
-                            <li>&nbspSecurity Cables</li>
-                            <li>&nbspCCTV Cable</li>
-                            <li>&nbspPower Cable Accessories</li>
-                            <li>&nbspTelecommunication Cables</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
          </div>
     </div>
 
 </body>
 </html>
 <?php include 'footer.php';?>
-

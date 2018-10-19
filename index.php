@@ -23,20 +23,25 @@
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active image-class-small">
-                <img class="image-class-small" src="./media/honeywell-image1.jpg" style="width:100%;">
+                <img class="image-class-small" src="./media/honeywell-image2.jpg" style="width:100%;">
               </div>
 
               <div class="item">
-                <img src="./media/honeywell-image2.jpg" style="width:100%;">
+                <img src="./media/honeywell-image1.jpg" style="width:100%;">
               </div>
             
               <div class="item">
                 <img src="./media/honeywell-image3.jpg" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="./media/ggppss.jpg" style="width:100%;">
               </div>
             </div>
 
